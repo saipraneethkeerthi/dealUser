@@ -1,7 +1,7 @@
 import React from "react";
 import { Menu } from "antd";
 import "./navbar.scss";
-import Notification from "../Notification";
+// import Notification from "../Notification";
 import { NotificationTypes } from "../../../enums/notificationTypes";
 import AppIcon from "../../../assets/images/app-logo-white.svg";
 import {
@@ -18,49 +18,49 @@ const Navbar = (props: any) => {
     {
       title: "Dashboard",
       key: "dashboard",
-      path: AppRoutes.DASHBOARD,
+      // path: AppRoutes.DASHBOARD,
       icon: <IconComponent name="icon-dashboard" />,
     },
     {
       title: "Customers",
       key: "customers",
-      path: AppRoutes.CUSTOMERS,
+      // path: AppRoutes.CUSTOMERS,
       icon: <IconComponent name="icon-customers" />,
     },
     {
       title: "Vendors",
       key: "vendors",
-      path: AppRoutes.VENDORS,
+      // path: AppRoutes.VENDORS,
       icon: <IconComponent name="icon-vendors" />,
     },
     {
       title: "Purchases",
       key: "purchases",
-      path: AppRoutes.PURCHASES,
+      // path: AppRoutes.PURCHASES,
       icon: <IconComponent name="icon-purchases" />,
     },
     {
       title: "Settlements",
       key: "settlements",
-      path: AppRoutes.SETTLEMENTS,
+      // path: AppRoutes.SETTLEMENTS,
       icon: <IconComponent name="icon-settlements" />,
     },
     {
       title: "Payments",
       key: "payments",
-      path: AppRoutes.PAYMENTS,
+      // path: AppRoutes.PAYMENTS,
       icon: <IconComponent name="icon-payments" />,
     },
     {
       title: "Deall Users",
       key: "deall-users",
-      path: AppRoutes.DEALL_USERS,
+      // path: AppRoutes.DEALL_USERS,
       icon: <IconComponent name="icon-user-config" />,
     },
     {
       title: "Configuration",
       key: "configuration",
-      path: AppRoutes.CONFIGURATION,
+      // path: AppRoutes.CONFIGURATION,
       icon: <IconComponent name="icon-setting" />,
     },
   ];
@@ -78,7 +78,7 @@ const Navbar = (props: any) => {
             <Menu.Item
               className="navbar-item"
               key={value?.key}
-              onClick={() => navigate(value?.path)}
+              // onClick={() => navigate(value?.path)}
             >
               <div className="navbar-item__title">
                 {value?.icon}

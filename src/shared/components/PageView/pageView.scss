@@ -1,0 +1,45 @@
+@import "src/styles/variables";
+
+.page-view {
+    padding-top: 33px;
+    .page-view-header-title__container {
+        padding-left: 24px;
+        padding-right: 54px;
+        .back-icon {
+            cursor: pointer;
+        }
+        i {
+            font-size: 24px;
+        }
+        h2 {
+            font-weight: 700 !important;
+            i {
+                vertical-align: -13%;
+                margin-right: 8px;
+            }
+            .title-span {
+                color: $primary-grey;
+                font-weight: 500;
+                font-size: 16px;
+                margin-left: 24px
+            }
+        }
+        .page-view-header-title__right {
+            width: fit-content;
+            margin-right: 0;
+            margin-left: auto;
+            i {
+                vertical-align: -13%;
+            }
+            .notification-badge {
+                margin-right: 24px;
+                line-height: 3;
+            }
+        }
+    }
+    .page-view-content {
+        padding-left: 24px;
+        padding-right: 24px;
+        padding-top: 24px;
+    }
+}

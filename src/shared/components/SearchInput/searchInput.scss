@@ -1,0 +1,12 @@
+@import "src/styles/variables";
+
+.search-input {
+    height: 40px !important;
+    padding: 0 16px !important;
+    .ant-input {
+        height: 100%;
+    }
+    .ant-input-prefix {
+        margin-right: 16px;
+    }
+}

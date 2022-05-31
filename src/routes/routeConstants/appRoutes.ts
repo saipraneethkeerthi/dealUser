@@ -14,5 +14,6 @@ export const AppRoutes = {
   ONBOARD:"/onboard",
   PASSWORDRESETLINK:"/password-reset-link",
   NEWPASSWORD:"/set_newpassword",
-  VERIFYACCOUNT:"/account_verify"
+  VERIFYACCOUNT:"/account_verify",
+  PURCHASE:"/purchase"
 };

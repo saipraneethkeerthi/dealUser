@@ -1,0 +1,17 @@
+@import "src/styles/variables";
+
+.purchases {
+    // background: #FFFFFF;
+    // box-shadow: 0px 0px 40px #43389A0F;
+    // border-radius: 20px;
+    // padding: 16px;
+    .vendor__name {
+        img {
+            width: 28px;
+            height: 28px;
+            border-radius: 14px;
+            border: 0.5px solid $primary-border-color;
+            margin-right: 8px;
+        }
+    }
+}

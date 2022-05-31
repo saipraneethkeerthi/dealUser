@@ -1,0 +1,19 @@
+@import "src/styles/variables";
+
+.dropdown-field {
+    margin-top: 32px;
+    
+    label {
+        color: $label-color;
+        display: inline-block;
+        margin-bottom: 12px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+    &.error {
+        input {
+            border: 1px solid $input-border-error-color !important;
+        }
+    }
+}

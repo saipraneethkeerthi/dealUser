@@ -1,0 +1,34 @@
+@import "src/styles/variables";
+
+.badge-component {
+    padding: 2px 8px;
+    border: 0.2px solid $primary-blue;
+    border-radius: 12px;
+    width: fit-content;
+    background-color: $badge-purchased-color;
+    color: $primary-blue;
+    font-size: 12px;
+    font-weight: 600;
+    height: fit-content;
+    text-transform: capitalize;
+    &.active, &.completed, &.settled, &.refund_completed {
+        border-color: $primary-green;
+        color: $primary-green;
+        background-color: $badge-completed-color;
+    }
+    &.outstanding, &.pending_approval, &.pending_settlement, &.waiting_for_approval, &.outstanding_payment, &.pending {
+        border-color: $primary-yellow;
+        color: $primary-yellow;
+        background-color: $badge-outstanding-color;
+    }
+    &.partial_return, &.returned {
+        border-color: $primary-orange;
+        color: $primary-orange;
+        background-color: $badge-partial-return-color;
+    }
+    &.inactive, &.return_cancelled, &.overdue {
+        border-color: $primary-red;
+        color: $primary-red;
+        background-color: $badge-inactive-color;
+    }
+}

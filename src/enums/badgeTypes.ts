@@ -1,0 +1,22 @@
+export enum BadgeTypes {
+    ACTIVE = "active",
+    APPROVED = "approved",
+    INACTIVE = "inactive",
+    COMPLETED = "completed",
+    REFUND_COMPLETED = "refund_completed",
+    PURCHASED = "purchased",
+    PENDING = "pending",
+    PARTIAL_RETURN = "partial_return",
+    PENDING_APPROVAL = "waiting_for_approval",
+    PENDING_SETTLEMENT = "pending_settlement",
+    RETURNED = "returned",
+    RETURN_CANCELLED = "return_cancelled",
+    OVERDUE = "overdue",
+    OUTSTANDING = "outstanding",
+    OUTSTANDING_PAYMENT = "outstanding_payment",
+    SETTLED = "settled",
+    REJECTED = "rejected",
+    ADMIN= "admin",
+    INTERNAL_USER    =   "internal_user",
+    
+}
