@@ -1,0 +1,76 @@
+@import "variables";
+@import "helpers";
+@import "@antOverrides";
+@import "icons";
+
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 300;
+  src: local("Gilroy"), local("Gilroy"), url("../assets/fonts/Gilroy-Light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 400;
+  src: local("Gilroy"), local("Gilroy"), url("../assets/fonts/Gilroy-Regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 500;
+  src: local("Gilroy"), local("Gilroy"), url("../assets/fonts/Gilroy-Medium.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 600;
+  src: local("Gilroy"), local("Gilroy"), url("../assets/fonts/Gilroy-Semibold.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Gilroy";
+  font-style: normal;
+  font-weight: 700;
+  src: local("Gilroy"), local("Gilroy"), url("../assets/fonts/Gilroy-Bold.woff2") format("woff2");
+}
+
+/* General component styles */
+body {
+  background-color: #fbfbfc;
+  font-weight: 400;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+button,
+input {
+  font-family: "Gilroy" !important;
+  color: $primary-black;
+  line-height: 1;
+}
+
+.app-router {
+  min-height: 100vh;
+}
+
+.name-display-picture {
+  img {
+    width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    border: 0.5px solid $primary-border-color;
+    margin-right: 8px;
+  }
+}
+.payment-profit {
+  color: $primary-green;
+}
+.payment-loss {
+  color: $primary-red;
+}

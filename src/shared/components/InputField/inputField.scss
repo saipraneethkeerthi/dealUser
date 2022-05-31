@@ -1,0 +1,18 @@
+@import "src/styles/variables";
+
+.input-field {
+    margin-top: 15px;
+    label {
+       /*  color: $label-color; */
+        display: inline-block;
+        margin-bottom: 12px;
+        font-weight: 500;
+        font-size: 13px;
+    }
+
+   /*  &.error {
+        input {
+            border: 1px solid $input-border-error-color !important;
+        }
+    } */
+}

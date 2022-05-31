@@ -1,0 +1,109 @@
+@import "src/styles/variables";
+
+.button-component {
+    button {
+        padding: 13px 19px 12px;
+        height: unset;
+        font-weight: 600;
+        font-size: 15px;
+        .anticon {
+            width: 16px;
+            height: 16px;
+        }
+        & > .anticon + span, & > .icon-component + span {
+            margin-left: 10px;
+        }
+    }
+
+    &.large {
+        button {
+            padding: 18px 24px 16px;
+        }
+    }
+    &.medium {
+        button {
+            padding: 13px 19px 12px;
+        }
+    }
+    &.small {
+        button {
+            padding: 12px 16px 11px;
+        }
+    }
+    &.fixed {
+        button {
+            width: 150px;
+            padding: 13px 0 12px;
+        }
+    }
+    &.fixed-v2 {
+        button {
+            width: 200px;
+            padding: 13px 0 12px;
+        }
+    }
+    &.wide {
+        button {
+            width: 100%;
+            padding: 18px 0 16px;
+        }
+    }
+    &.icon-only {
+        .anticon {
+            font-size: 16px;
+            margin: auto;
+        }
+        button {
+            width: 32px;
+            height: 32px;
+            padding: 0;
+            border-radius: 50%;
+        }
+    }
+    &.secondary {
+        button {
+            color: $button-secondary-text-color;
+            background-color: $button-secondary-bg-color;
+            &:hover {
+                outline: 2px solid $button-secondary-border-hover-color;
+                color: $button-secondary-text-hover-color;
+            }
+            &:active {
+                outline: 2px solid $button-secondary-border-active-color;
+                color: $button-secondary-text-active-color;
+            }
+        }
+    }
+    &.negative {
+        button {
+            color: $button-negative-text-color;
+            background-color: $button-negative-bg-color;
+            &:hover {
+                outline: 2px solid $button-negative-border-hover-color;
+                color: $button-negative-text-hover-color;
+                background-color: $button-negative-bg-hover-color;
+            }
+            &:active {
+                outline: 2px solid $button-negative-border-active-color;
+                color: $button-negative-text-active-color;
+                background-color: $button-negative-bg-active-color !important;
+            }
+        }
+    }
+    &.affirmative {
+        button {
+            color: $button-affirmative-text-color;
+            background-color: $button-affirmative-bg-color;
+            &:hover {
+                outline: 2px solid $button-affirmative-border-hover-color;
+                color: $button-affirmative-text-hover-color;
+                background-color: $button-affirmative-bg-hover-color;
+            }
+            &:active {
+                outline: 2px solid $button-affirmative-border-active-color;
+                color: $button-affirmative-text-active-color;
+                background-color: $button-affirmative-bg-active-color !important;
+            }
+        }
+    }
+}

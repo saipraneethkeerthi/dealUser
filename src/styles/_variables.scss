@@ -1,0 +1,127 @@
+/* Color palette */
+$primary-color: #4537a0;
+$secondary-color: #006fba;
+$light-white: #ffffff40;
+$primary-light-color: #0d494e10;
+$primary-black: #292751;
+$dark-blue: #22509d;
+$primary-grey: #7886a9;
+$secondary-grey: #7a87ab;
+$light-grey: #00000015;
+$dark-grey: #8898aa;
+$success-color: #19aa7a;
+$danger-color: #fe0000;
+$warning-color: #f3b21b;
+$body-bg: #f5f8fa;
+$table-bg: #f7fafc;
+$input-bg: #f7f9fc;
+$sidebar-color: #292751;
+$primary-blue: #3b76db;
+$primary-yellow: #ffab16;
+$primary-orange: #fd7b02;
+$primary-red: #d21314;
+$primary-green: #19aa7a;
+$icon-blue: #43389a;
+$primary-border-color: #e4e9f2;
+$secondary-border-color:#BBC2D4;
+/* Component colors */
+
+/* Input Field */
+$input-border-color: #e4e9f2;
+$input-border-color-focus: #4537a0;
+$input-border-box-shadow: 0 0 0 2px
+    rgba(
+        $color: #006fba,
+        $alpha: 0.2,
+    );
+$input-border-radius: 14px;
+$label-color: #7886a9;
+$input-border-error-color: #b14048;
+
+/* Default Button */
+$button-default-border-color: #ffffff;
+$button-default-bg-color: white;
+$button-default-text-color: #292751;
+$button-default-border-radius: 12px;
+$button-default-letter-spacing: 0.6px;
+
+/* Primary Button */
+$button-primary-bg-color: #4537a0;
+$button-primary-bg-hover-color: #392e85;
+$button-primary-bg-active-color: #5241be;
+$button-primary-text-color: white;
+$button-primary-border-hover-color: #43389a4d;
+$button-primary-border-active-color: #43389a80;
+
+/* Secondary Button */
+
+$button-secondary-bg-color: #e4e9f2;
+$button-secondary-bg-hover-color: #e4e9f2;
+$button-secondary-bg-active-color: #f1f3f6;
+$button-secondary-text-color: #7886a9;
+$button-secondary-text-hover-color: #292751;
+$button-secondary-text-active-color: #292751;
+$button-secondary-border-hover-color: #cfd6e3;
+$button-secondary-border-active-color: #d9dee6;
+
+/* Negative Button */
+
+$button-negative-bg-color: #d21314;
+$button-negative-bg-hover-color: #b10a0b;
+$button-negative-bg-active-color: #db4243;
+$button-negative-text-color: #ffffff;
+$button-negative-text-hover-color: #ffffff;
+$button-negative-text-active-color: #ffffff;
+$button-negative-border-hover-color: #ecc1c6;
+$button-negative-border-active-color: #ecc1c6;
+
+/* Negative Button */
+
+$button-affirmative-bg-color: #19aa7a;
+$button-affirmative-bg-hover-color: #1a805e;
+$button-affirmative-bg-active-color: #47bb94;
+$button-affirmative-text-color: #ffffff;
+$button-affirmative-text-hover-color: #ffffff;
+$button-affirmative-text-active-color: #ffffff;
+$button-affirmative-border-hover-color: #c0e4d8;
+$button-affirmative-border-active-color: #c0e4d8;
+
+/* Checkbox */
+$checkbox-bg-color: #00d404;
+$checkbox-hover-border-color: #00d404;
+$checkbox-text-color: white;
+$checkbox-hover-text-color: #00d404;
+
+/* Radio */
+$radio-border-color: rgb(202, 202, 202);
+$radio-checked-border-color: #4537a0;
+$radio-checked-bg-color: #4537a0;
+
+/* Select */
+$select-border-color: #e4e9f2;
+$select-hover-border-color: #e4e9f2;
+$select-border-radius: 14px;
+
+/* Shadows */
+$primary-shadow: 0 8px 22px #0000001a;
+$secondary-shadow: 0px 3px 6px #2c28281c;
+
+/* Spacer variables */
+$spacer-x: 1rem;
+$spacer-y: 1rem;
+
+/* Notification */
+$success-notification-color: #19aa7a;
+
+/* Badge */
+$badge-completed-color: #e8f5f1;
+$badge-inactive-color: #f8e9eb;
+$badge-outstanding-color: #fff6e6;
+$badge-purchased-color: #eaf0fb;
+$badge-partial-return-color: #fef1e4;
+
+/*Date Picker*/
+$date-picker-bg-color: #F7F9FC;
+$date-picker-hover-border-color: #e4e9f2;
+$date-picker-active-border-color: #4537A0;
+$date-picker-border-radius: 14px;
