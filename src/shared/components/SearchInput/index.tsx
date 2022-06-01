@@ -3,6 +3,8 @@ import React, { FC } from "react";
 import IconComponent from "../IconComponent";
 import "./searchInput.scss";
 
+
+
 interface SearchInputProps {
     placeholder: string;
     onChange: (value: string) => void;
